@@ -5,12 +5,13 @@
     height: 200px;
 }
 
-.float-container {
-    padding: 20px;
+.grid-child {
+    position: relative;
 }
 
-.float-child {
-    width: 50%;
-    float: left;
-    padding: 20px;
-}  
+.grid {
+    text-align:center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
