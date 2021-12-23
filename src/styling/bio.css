@@ -1,0 +1,16 @@
+.bioImage {
+    margin: auto;
+    border-radius: 80%;
+    width: 200px;
+    height: 200px;
+}
+
+.float-container {
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}  
